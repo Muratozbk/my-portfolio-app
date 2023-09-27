@@ -10,9 +10,17 @@ const Navbar = () => {
         setClick(!click)
     }
 
-    return (
-        <div className='header'>
+    const [color, setColor] = useState(false);
+    const changeColor = () => {
+        if (window.scrollY >= 100) {
+            setColor(true)
+        } else { setColor(false) }
+    };
 
+    window.addEventListener("scroll", changeColor)
+
+    return (
+        <div className={`header ${color && 'header-bg'}`}>
             <Link to={'/'} >
                 <h1>Portfolio</h1>
             </Link>
@@ -31,6 +39,7 @@ const Navbar = () => {
                     <Link to={'/contact'}>Contact</Link>
                 </li>
             </ul>
+
 
             <div className='hamburger' onClick={handleClick}>
                 {!click ? <FaBars size={20} style={{ color: "#efefef" }} /> :
