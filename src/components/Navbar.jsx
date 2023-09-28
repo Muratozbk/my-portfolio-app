@@ -10,6 +10,7 @@ const Navbar = () => {
         setClick(!click)
     }
 
+    // Scrool and change nav bg color
     const [color, setColor] = useState(false);
     const changeColor = () => {
         if (window.scrollY >= 100) {
@@ -42,13 +43,13 @@ const Navbar = () => {
 
 
             <div className='hamburger' onClick={handleClick}>
-                {!click ? <FaBars size={20} style={{ color: "#efefef" }} /> :
-                    <FaTimes size={20} style={{ color: "#efefef" }} />}
+                {!click ? <FaBars size={20} style={{ color: "#efefef" }} />
+                    : <FaTimes size={20} style={{ color: "#efefef" }} />}
             </div>
 
         </div>
     )
 }
 
-// 48:16
+
 export default Navbar
