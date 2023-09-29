@@ -46,5 +46,5 @@ const Footer = () => {
     )
 
 }
-// 1:20
+
 export default Footer
