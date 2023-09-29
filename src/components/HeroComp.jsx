@@ -14,4 +14,3 @@ const HeroProject = ({ heading, text }) => {
 
 export default HeroProject
 
-// 1.34.12
