@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import HeroComp from '../components/HeroComp'
 import PricingCard from '../components/PricingCard'
-import WorkCard from '../components/WorkCard'
+import Work from '../components/Work'
 
 function Project() {
     return (
@@ -11,7 +11,7 @@ function Project() {
             <Navbar />
             <HeroComp heading="PROJECTS"
                 text='Some of my recent works' />
-            <WorkCard />
+            <Work />
             <PricingCard />
             <Footer />
         </div>
@@ -19,3 +19,4 @@ function Project() {
 }
 
 export default Project
+// 2.11
