@@ -28,12 +28,16 @@
 }
 
 .hero-img h1 {
-    font-size: 2.3rem;
+    font-size: 2.4rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-bottom: 3px;
 }
 
 .hero-img p {
     font-size: 1.4rem;
     text-align: center;
+    letter-spacing: 1px;
 }
 
 @media screen and (max-width: 640px) {
