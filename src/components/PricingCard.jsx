@@ -23,7 +23,7 @@ const PricingCard = () => {
                 <div className="card">
                     <h3>- Basic2 -</h3>
                     <span className="bar"></span>
-                    <p className="btc">$ 200</p>
+                    <p className="btc ">$ 200</p>
                     <p>- 3 Days -</p>
                     <p>- 3 Pages -</p>
                     <p>- Featured -</p>
