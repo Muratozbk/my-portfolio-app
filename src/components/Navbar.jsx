@@ -23,7 +23,7 @@ const Navbar = () => {
     return (
         <div className={`header ${color && 'header-bg'}`}>
             <Link to={'/'} >
-                <h1>Portfolio</h1>
+                <h1 className=' text-3xl/3 font-semibold'>Portfolio</h1>
             </Link>
 
             <ul className={`nav-menu ${click && 'active'}`}>
