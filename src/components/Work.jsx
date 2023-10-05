@@ -1,5 +1,5 @@
 import WorkCard from './WorkCard';
-import WorkCardData from './WorkCardData'
+import WorkCardData from '../data/WorkCardData'
 import React from 'react';
 
 const Work = () => {

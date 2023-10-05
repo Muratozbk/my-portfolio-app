@@ -6,7 +6,7 @@ const ProjectCardData = [
     {
         imgsrc: pro1,
         title: "House Marketplace",
-        text: "Find and list houses for sale or for rent. This is a React / Firebase v9 project from the React",
+        text: "Find and list houses for sale or for rent. This is a React / Firebase v9 project with Map Geocoding Api and Google Oath.",
         view: "https://house-marketplace-rho-pink.vercel.app/",
         source: "https://github.com/Muratozbk/house-marketplace"
     },
