@@ -1,13 +1,14 @@
-import pro1 from '../assets/project1.png'
+import pro1 from '../assets/houseMarket.png'
 import pro2 from '../assets/project2.png'
 import pro3 from '../assets/project3.png'
 
 const ProjectCardData = [
     {
         imgsrc: pro1,
-        title: "Ecommerce Website Design",
-        text: "Thriving Facebook commmunity and top-ranked podcast, Amy inspires a grounded. Best-selling marketing courses.",
+        title: "House Marketplace",
+        text: "Find and list houses for sale or for rent. This is a React / Firebase v9 project from the React",
         view: "https://house-marketplace-rho-pink.vercel.app/",
+        source: "https://github.com/Muratozbk/house-marketplace"
     },
     {
         imgsrc: pro2,
