@@ -1,5 +1,5 @@
 import pro1 from '../assets/houseMarket.png'
-import pro2 from '../assets/project2.png'
+import pro2 from '../assets/trektrip.png'
 import pro3 from '../assets/project3.png'
 
 const ProjectCardData = [
@@ -12,9 +12,10 @@ const ProjectCardData = [
     },
     {
         imgsrc: pro2,
-        title: "LMS/Course Website Design",
-        text: "Thriving Facebook commmunity and top-ranked podcast, Amy inspires a grounded. Best-selling marketing courses.",
-        view: "https://house-marketplace-rho-pink.vercel.app/",
+        title: "Trek Tripper, Travelling Website Design",
+        text: "Trek Tripper is fully responsive travel website, responsive for all devices, built using HTML, CSS, and React components.",
+        view: "https://trek-travel-react-project.vercel.app/",
+        source: 'https://github.com/Muratozbk/trek-travel-react-project',
     },
     {
         imgsrc: pro3,

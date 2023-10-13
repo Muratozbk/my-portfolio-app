@@ -9,6 +9,12 @@ const Navbar = () => {
     const handleClick = () => {
         setClick(!click)
     }
+    const scrollTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'instant'
+        })
+    }
 
     // Scrool and change nav bg color
     const [color, setColor] = useState(false);
@@ -17,7 +23,6 @@ const Navbar = () => {
             setColor(true)
         } else { setColor(false) }
     };
-
     window.addEventListener("scroll", changeColor)
 
     return (
@@ -26,7 +31,8 @@ const Navbar = () => {
                 <h1 className=' text-3xl/3 font-semibold'>Portfolio</h1>
             </Link>
 
-            <ul className={`nav-menu ${click && 'active'}`}>
+            <ul className={`nav-menu ${click && 'active'}`}
+                onClick={scrollTop}>
                 <li>
                     <Link to={'/'}>Home</Link>
                 </li>
