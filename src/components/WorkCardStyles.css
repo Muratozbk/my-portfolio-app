@@ -9,7 +9,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
-    padding-bottom: 4rem;
+    padding-bottom: 2.5rem;
 }
 
 .project-card {
@@ -23,13 +23,15 @@
 }
 
 .project-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    white-space: nowrap;
     color: #efefef;
     padding: 1rem 0;
     text-align: justify;
 }
 
 .pro-details {
-    padding-bottom: 1rem;
     font-size: 1.1rem;
     padding: 0.5rem 0;
 }

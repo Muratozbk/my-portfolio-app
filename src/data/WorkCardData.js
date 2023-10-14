@@ -12,7 +12,7 @@ const ProjectCardData = [
     },
     {
         imgsrc: pro2,
-        title: "Trek Tripper, Travelling Website Design",
+        title: "Trek Tripper, Travelling Website",
         text: "Trek Tripper is fully responsive travel website, responsive for all devices, built using HTML, CSS, and React components.",
         view: "https://trek-travel-react-project.vercel.app/",
         source: 'https://github.com/Muratozbk/trek-travel-react-project',
@@ -22,7 +22,20 @@ const ProjectCardData = [
         title: "Rymo Ecommerce Design",
         text: "Thriving Facebook commmunity and top-ranked podcast, Amy inspires a grounded. Best-selling marketing courses.",
         view: "https://house-marketplace-rho-pink.vercel.app/",
-    }
+    },
+    {
+        imgsrc: pro2,
+        title: "Trek Tripper, Travelling Website",
+        text: "Trek Tripper is fully responsive travel website, responsive for all devices, built using HTML, CSS, and React components.",
+        view: "https://trek-travel-react-project.vercel.app/",
+        source: 'https://github.com/Muratozbk/trek-travel-react-project',
+    },
+    {
+        imgsrc: pro3,
+        title: "Rymo Ecommerce Design",
+        text: "Thriving Facebook commmunity and top-ranked podcast, Amy inspires a grounded. Best-selling marketing courses.",
+        view: "https://house-marketplace-rho-pink.vercel.app/",
+    },
 ];
 
 export default ProjectCardData;
