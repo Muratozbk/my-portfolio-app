@@ -1,6 +1,7 @@
 import pro1 from '../assets/houseMarket.png'
 import pro2 from '../assets/trektrip.png'
 import pro3 from '../assets/project3.png'
+import pro5 from '../assets/weatherApp.png'
 
 const ProjectCardData = [
     {
@@ -31,10 +32,11 @@ const ProjectCardData = [
         source: 'https://github.com/Muratozbk/trek-travel-react-project',
     },
     {
-        imgsrc: pro3,
-        title: "Rymo Ecommerce Design",
-        text: "Thriving Facebook commmunity and top-ranked podcast, Amy inspires a grounded. Best-selling marketing courses.",
-        view: "https://house-marketplace-rho-pink.vercel.app/",
+        imgsrc: pro5,
+        title: "React Weather App",
+        text: "Simple weather app created with React and used OpenWeather Api service. You can search any city in the world.",
+        view: "https://weather-app-react-sooty-nine.vercel.app/",
+        source: "https://github.com/Muratozbk/weather-app-react"
     },
 ];
 
