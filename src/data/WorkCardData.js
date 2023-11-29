@@ -1,6 +1,7 @@
 import pro1 from '../assets/houseMarket.png'
 import pro2 from '../assets/trektrip.png'
 import pro3 from '../assets/project3.png'
+import pro4 from '../assets/travelfar.png'
 import pro5 from '../assets/weatherApp.png'
 
 const ProjectCardData = [
@@ -30,6 +31,14 @@ const ProjectCardData = [
         text: "Trek Tripper is fully responsive travel website, responsive for all devices, built using HTML, CSS, and React components.",
         view: "https://trek-travel-react-project.vercel.app/",
         source: 'https://github.com/Muratozbk/trek-travel-react-project',
+    }
+    ,
+    {
+        imgsrc: pro4,
+        title: "Far Away Travel Pack",
+        text: "Traveler packing list app, created with React. You can make your own packing list and edit it.",
+        view: "https://travel-far-away-app.vercel.app/",
+        source: "https://github.com/Muratozbk/travel-far-away-app"
     },
     {
         imgsrc: pro5,
@@ -37,7 +46,7 @@ const ProjectCardData = [
         text: "Simple weather app created with React and used OpenWeather Api service. You can search any city in the world.",
         view: "https://weather-app-react-sooty-nine.vercel.app/",
         source: "https://github.com/Muratozbk/weather-app-react"
-    },
+    }
 ];
 
 export default ProjectCardData;
